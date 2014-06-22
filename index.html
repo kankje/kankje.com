@@ -15,7 +15,7 @@
         margin: 0;
         padding: 0;
         font-family: monospace;
-        color: #333333;
+        color: #333;
       }
 
       #outer-wrapper {
@@ -30,23 +30,31 @@
         vertical-align: middle;
       }
 
+      h1 {
+        margin: 0;
+        color: #333;
+      }
+
+      h2 {
+        margin-top: 0;
+      }
+
+      h2, h3 {
+        color: #555;
+      }
+
+      a {
+        color: #777;
+      }
+
       img {
-        margin: 15px;
+        margin: 10px;
       }
 
       a.img {
         text-decoration: none;
       }
-
-      h1 {
-        margin-bottom: 0;
-      }
-
-      h2 {
-        margin-top: 0;
-        color: #555555;
-      }
-    </style>
+   </style>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -62,7 +70,6 @@
   <body>
     <div id="outer-wrapper">
       <div id="inner-wrapper">
-
         <h1>Jere Kankaanranta</h1>
         <h2>A web developer</h2>
 
@@ -78,10 +85,20 @@
           <img src="img/twitter-logo.png" alt="Twitter">
         </a>
 
-        <a href="http://blog.kankje.com/">
-          <h2>My blog</h2>
-        </a>
+        <h3>Email</h3>
+        <p>
+          <a href="mailto:jere@kankje.com">
+            jere@kankje.com
+          </a>
+          <br>
+          PGP: 0x0781b8c45a208ebe
+        </p>
 
+        <h3>
+          <a class="blog" href="https://kankje.com/blog">
+            Blog
+          </a>
+        </h3>
       </div>
     </div>
   </body>
